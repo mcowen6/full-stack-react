@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import MovieCard from "./components/MovieCard";
+// import MovieCard from "./components/MovieCard";
 import CreateUser from "./components/CreateUser";
 import ReadUsers from "./components/ReadUsers";
 import Login from "./components/Login";
@@ -9,7 +9,7 @@ import { authCheck } from "./utils";
 import UpdateUser from "./components/UpdateUser";
 import DeleteUser from "./components/DeleteUser";
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=32627e69";
+// const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=32627e69";
 
 const App = () => {
   // const [searchTerm, setSearchTerm] = useState("");
